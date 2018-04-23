@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav';
+import Bio from './components/Bio';
+import './App.css'
+
 
 class App extends Component {
     handleClick (index) {
@@ -26,7 +29,10 @@ class App extends Component {
 
       render () {
           return (
-              <Nav />
+            <div className='bckg-img'>
+                <Nav />
+                <Bio />
+            </div>
           )
       }
 }
