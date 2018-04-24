@@ -29,9 +29,14 @@ class App extends Component {
 
       render () {
           return (
-            <div className='bckg-img'>
+            <div>
+            <div className='bckg-img img'>
                 <Nav />
-                <Bio />
+                {/* <Bio /> */}
+            </div>
+            <div className='bio-content'>
+            <Bio />
+            </div>
             </div>
           )
       }

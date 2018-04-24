@@ -1,7 +1,41 @@
-/* .background-img {
-    background: url('https://images.unsplash.com/photo-1500823075810-5ca0b9eebe85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d7997556e56115906bb1b2700c07b6d&auto=format&fit=crop&w=905&q=80');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.personal-pic {
+    float: left;
+    width: 40%;
+    display: inline-block;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%
+}
+.bio-pic {
     height: 100%;
-} */
+    width: 100%;
+    padding: 4%;
+    border: 2px solid rgba(53, 53, 53, 0.267);
+    border-radius: 20%;
+    margin: 1%;
+    
+}
+.personal-bio {
+    padding: 2%;
+    width: 45%;
+    border: 2px solid rgba(53, 53, 53, 0.267);
+    border-radius: 15%;
+    margin: 1%;
+    float: left
+}
+.list-of-accomplishments {
+    border: 2px solid rgba(53, 53, 53, 0.267);
+    border-radius: 15%;
+    margin: 2%;
+    margin-right: 3%;
+    width: 40%;
+    padding: 1%;
+    float: right
+}
+.list-of-accomplishments ul {
+    display: inline-block
+}
+.list-of-accomplishments p {
+    line-height: 35px
+}
