@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import FaIconPack from 'react-icons/lib/fa'
 import Nav from './components/Nav';
 import Bio from './components/Bio';
+import FrontPage from './components/FrontPage';
 import './App.css'
 
 
@@ -32,7 +34,7 @@ class App extends Component {
             <div>
             <div className='bckg-img img'>
                 <Nav />
-                {/* <Bio /> */}
+                <FrontPage />
             </div>
             <div className='bio-content'>
             <Bio />

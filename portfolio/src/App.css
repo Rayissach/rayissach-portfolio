@@ -1,6 +1,7 @@
 .bckg-img {
-    height: 100%;
-    background: url('https://images.unsplash.com/photo-1500823075810-5ca0b9eebe85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d7997556e56115906bb1b2700c07b6d&auto=format&fit=crop&w=905&q=80');
+    /* height: 100%; */
+    height: 1024px;
+    background: linear-gradient(180deg,hsla(0,0%,0%,.8),hsla(0,0%,0%,.8)), url('https://images.unsplash.com/photo-1500823075810-5ca0b9eebe85?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4d7997556e56115906bb1b2700c07b6d&auto=format&fit=crop&w=905&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

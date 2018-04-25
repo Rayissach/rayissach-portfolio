@@ -22,10 +22,10 @@ class Nav extends React.Component {
                     Projects
                     </a>
                     <div className='project-content'>
-                        <a href='#'>Project 1</a>
-                        <a href='#'>Project 2</a>
-                        <a href='#'>Preoject 3</a>
-                        <a href='#'>Project 4</a>
+                        <a href='#'>React and DB</a>
+                        <a href='#'>Mongo DB</a>
+                        <a href='#'>NodeJS </a>
+                        <a href='#'>MySQL</a>
                     </div>
                 </li>
                 <li>
