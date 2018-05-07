@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import FaIconPack from 'react-icons/lib/fa'
+// import { Router, Route, Link } from 'react-router'
 import Nav from './components/Nav';
 import Bio from './components/Bio';
 import FrontPage from './components/FrontPage';
+import Projects from './components/Projects'
+import './Reset.css'
 import './App.css'
 
 
@@ -32,12 +34,21 @@ class App extends Component {
       render () {
           return (
             <div>
+            {/* <Router>
+              <div>
+                <Route exact path='/' component={FrontPage} />
+                <Route path='/bio' component={Bio} />
+              </div>
+            </Router> */}
             <div className='bckg-img img'>
-                <Nav />
-                <FrontPage />
+              <Nav />
+              <FrontPage />
             </div>
             <div className='bio-content'>
-            <Bio />
+              <Bio />
+            </div>
+            <div className='project-contents'>
+              <Projects />
             </div>
             </div>
           )

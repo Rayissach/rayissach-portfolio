@@ -7,3 +7,10 @@
     background-repeat: no-repeat;
     filter: brightness(100%);
 }
+.bio-content {
+    height: 1300px;
+}
+.project-contents {
+    height: 900px;
+    background: rgba(24, 24, 24, 0.76);
+}

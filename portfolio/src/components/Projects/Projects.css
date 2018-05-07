@@ -1,0 +1,55 @@
+.projectHeader {
+    /* color:silver; */
+    color: white;
+    font-size: 50px;
+    font-family: fantasy;
+    margin: 1%;
+    padding: 20px
+}
+.projectFiles {
+    position: absolute;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+.projectBottomImg {
+    position: absolute;
+    text-align: center;
+}
+.projectImages {
+    position: relative;
+}
+.postHead {
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+}
+/* .projectBottomImg p{
+    position: relative;
+    background: white;
+    height: 100%;
+    bottom: 8px;
+} */
+
+.portImages {
+   
+    height: 300px;
+    width: 400px;
+    margin: 0;
+}
+.portImages:hover {
+    opacity: .5;
+}
+.projectFooter {
+    text-align: center;
+}
+.projectFooter p{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
