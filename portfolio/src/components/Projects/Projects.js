@@ -11,31 +11,52 @@ class Projects extends React.Component {
                 <div className='projectFiles'>
                     <div className='projectImages'>
                         <div className='projectBottomImg'>
-                            <header className='postHead'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg1' src='./port-img1.jpg' />
                             <p>This is project #1 this project is made with react</p>
-                            </header>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg2' src='./port-img2.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg3' src='./port-img3.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg4' src='./port-img4.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg5' src='./port-img5.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg6' src='./port-img6.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg7' src='./port-img7.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                         <div className='projectBottomImg'>
+                            {/* <header className='postHead'> */}
                             <img className='portImages' id='portImg8' src='./port-img8.jpg' />
+                            <p>This is project #1 this project is made with react</p>
+                            {/* </header> */}
                         </div>
                     </div>
                 </div>

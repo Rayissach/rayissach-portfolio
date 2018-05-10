@@ -7,35 +7,46 @@
     padding: 20px
 }
 .projectFiles {
-    position: absolute;
+    position: relative;
     margin-left: 1%;
     margin-right: 1%;
     text-align: center;
-}
-.projectBottomImg {
-    position: absolute;
-    text-align: center;
+    line-height: 0;
+    width: 100%;
 }
 .projectImages {
     position: relative;
+    display: inline-block;
+    float: left;
+    display: inline-block;
+    
 }
-.postHead {
+.projectBottomImg {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+.projectBottomImg p {
+    position: relative;
+    color: white;
+    height: 100%;
+    bottom: 8px;
+    visibility: hidden;
+}
+.projectBottomImg:hover p{
+    visibility: visible;
+    /* transition-delay: .5s; */
+}
+
+/* .postHead {
     bottom: 0;
     left: 0;
     padding: 0;
     position: absolute;
     width: 100%;
     z-index: 5;
-}
-/* .projectBottomImg p{
-    position: relative;
-    background: white;
-    height: 100%;
-    bottom: 8px;
 } */
-
 .portImages {
-   
     height: 300px;
     width: 400px;
     margin: 0;
@@ -45,6 +56,9 @@
 }
 .projectFooter {
     text-align: center;
+    /* animation-name: contentss;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;  */
 }
 .projectFooter p{
     color: white;
@@ -53,3 +67,22 @@
     line-height: 30px;
     letter-spacing: 2px;
 }
+/* @keyframes contentss{
+    0% {background: yellow; left: -1000px;}
+    100% {background: blue; left: 0px;}
+} */
+/* #portImg2 {
+    border: 4px solid black;
+    animation-name: newphoto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+} */
+/* @keyframes newphoto {
+0% {border-radius: 0 0 0 0;};
+25% {top:10px; opacity: .8; border-radius: 50% 0 0 0;};
+50% {top:20px; opacity: .5; border-radius: 50% 50% 0 0;};
+75%{top:50px; opacity: .25; border-radius: 50% 50% 50% 0}
+100% {top:100px; opacity: 0; border-radius: 50% 50% 50% 50%;}
+} */
+

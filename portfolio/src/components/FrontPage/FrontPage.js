@@ -9,7 +9,7 @@ class FrontPage extends React.Component {
             <div className='front-content'>
                 <div className='mid-content'>
                     <div className='headers'>
-                        <h2>HI I'm Ray. I design & build</h2>
+                        <h2>Hi, I'm Ray. I design & build</h2>
                         <h3>Web Applications & User Interface</h3>
                     </div>
                     <div className='head-center'>

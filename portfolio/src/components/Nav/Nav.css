@@ -1,25 +1,34 @@
+
 .header-cont {
     background: rgba(0, 0, 0, 0);
     color: white;
     padding: 5px;
+    font-family: "Rationale";
+    font-size: 25px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    /* box-shadow: 2px 2px 2px rgba(44, 44, 44, 0.157); */
 }
 .brand a{
     float: left;
     display: block;
-    color: rgb(160, 160, 160);
+    color: rgba(255, 255, 255, 0.850);
     text-align: center;
     padding: 14px 16px;
+    padding-left: 30px;
     text-decoration: none;
 }
 .right-bar ul{
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding-right: 50px;
     overflow: hidden;
 }
 .right-bar li a{
     display: block;
-    color: rgb(160, 160, 160);
+    color: rgb(255, 255, 255, 0.850);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -43,8 +52,8 @@
     text-align: left;
 }
 .right-bar li a:hover, .brand a:hover, .project-content a:hover {
-    color: grey;
-    background: black;
+    color: white;
+    background: rgba(138, 138, 138, 0.219);
 }
 .dropdown:hover .project-content {
     display: block;

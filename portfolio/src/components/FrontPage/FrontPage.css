@@ -1,8 +1,17 @@
 .headers {
     color: white;
     text-align: center;
-    height: 30%
+    height: 30%;
+    font-family: 'Racing Sans One';
+    font-size: 50px;
+    /* animation-name: headerCont;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; */
 }
+/* @keyframes headerCont {
+    0% {height: 0px;}
+    100% {color:red; height: 50px;}
+} */
 .head-center {
     margin: auto;
     height: 20px;
@@ -11,12 +20,12 @@
 }
 .head-center a button {
     text-decoration: none;
+    color: rgb(22, 22, 22)
 }
 .headers {
    margin-top: 20%;
    padding: 2%;
    height: 25%;
-   /* background: purple; */
    text-align: center;
 }
 .mid-content {
@@ -26,7 +35,6 @@
     width: 100%;
 }
 .head-bottom {
-    color: rgba(197, 197, 197, 0.808);
     bottom: 0;
     position: absolute;
     text-align: center;
@@ -36,19 +44,23 @@
     height: 70px;
     margin: auto;
     width: 400px;
+    font-family: 'Rationale';
+    font-size: 25px;
 }
 .fp-footer a{
-    color: rgba(197, 197, 197, 0.808);
+    color: rgba(255, 255, 255, 0.774);
     text-decoration: none;
 }
 button {
-    border: 2px solid purple;
+    border: 1px solid rgba(209, 58, 58, 0.836);
     border-radius: 100px;
     padding: 20px;
     cursor: pointer;
-    background: rgba(117, 117, 117, 0.609);
-    box-shadow: rgba(128, 0, 128, 0.596) 1px 1px;
+    background: rgba(187, 187, 187, 0.609);
+    box-shadow: rgba(209, 58, 58, 0.836) 1px 1px;
     display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
 }
 button:hover {
     background: rgba(233, 233, 233, 0.609);
@@ -71,3 +83,4 @@ button:hover p {
     display: inline;
     padding-left: -10px;
 }
+
