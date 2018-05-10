@@ -23,18 +23,23 @@
 .right-bar ul{
     list-style: none;
     margin: 0;
-    padding-right: 50px;
-    overflow: hidden;
+    padding-right: 30px;
+    overflow: auto;
+    /* transform: rotate(180deg); */
+    /* counter-reset:item 3; */
 }
-.right-bar li a{
+.right-bar ul>li a{
     display: block;
     color: rgb(255, 255, 255, 0.850);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+   
+    /* counter-increment:item -1; */
 }
-.right-bar li {
+.right-bar ul>li {
     float: right;
+    /* transform: rotate(-180deg) */
 }
 .project-content {
     display: none;

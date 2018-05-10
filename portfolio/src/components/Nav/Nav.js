@@ -12,9 +12,9 @@ class Nav extends React.Component {
             </div>
             <div className='right-bar'>
             <ul>
-                <li>
+            <li>
                     <a href='#'>
-                    Bio
+                    Social Medias
                     </a>
                 </li>
                 <li className='dropdown'>
@@ -30,7 +30,7 @@ class Nav extends React.Component {
                 </li>
                 <li>
                     <a href='#'>
-                    Social Medias
+                    Bio
                     </a>
                 </li>
             </ul>
