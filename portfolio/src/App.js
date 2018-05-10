@@ -44,9 +44,9 @@ class App extends Component {
               <Nav />
               <FrontPage />
             </div>
-            <div className='bio-content'>
+            {/* <div className='bio-content'>
               <Bio />
-            </div>
+            </div> */}
             <div className='project-contents'>
               <Projects />
             </div>
